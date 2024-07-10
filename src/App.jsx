@@ -3,12 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import {Nombres} from './components/Nombres/ Nombres.jsx'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-   
+  <Nombres/>
     </>
   )
 }
